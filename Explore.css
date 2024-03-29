@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans' , sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8e7f7c;
+}
+
+.Seafloor{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: orangered;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 30px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: orangered;
+    transition: .2s;
+}
+
+.Spreading{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: #fff;
+    margin: 15px 8px 10px;
+    font-size: 30px;
+}
+
+h3{
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: orangered;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.Main{
+    /* text-align: center; */
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.Main h1{
+    color: #000000;
+    font-weight: 350;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Main .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.Main p{
+    width: 600px;
+    font-size: 23px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.process h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 55px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 55%;
+}
+
+.image3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 55%;
+}
+
+.process p{
+    margin: auto;
+    width: 800px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.defi p{
+    margin: auto;
+    width: 800px;
+    font-size: 23px;
+}
+
+.mid h1{
+    margin: auto;
+    font-weight: 350;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mid img{
+    margin: auto;
+    margin-left: 140px;
+    align-items: center;
+    margin-right: auto;
+    width: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+.mid p{
+    margin: auto;
+    width: 800px;
+    font-size: 20px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.plate h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 350;
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.plate img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.plate p{
+    margin: auto;
+    font-size: 23px;
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.Idea{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Idea h1{
+    color: #000000;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 350;
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Idea p{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rows{
+    flex-basis: 31%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.Rows h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+}

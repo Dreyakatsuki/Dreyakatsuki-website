@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans' , sans-serif;
+    box-sizing: border-box;
+}
+
+/* body{
+    cursor: url(Rotating\ Earth\ -\ Bright\ Green\ Land.ani), auto;
+} */
+
+.Seafloor{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(land.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: orangered;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 30px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: orangered;
+    transition: .2s;
+}
+
+.Spreading{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: #fff;
+    margin: 10px 5px 10px;
+    font-size: 25px;
+}
+
+h3{
+    color: #aea8a8;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: orangered;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+section{
+    padding-top: 70px;
+}
+
+.purpose{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+.about img{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.about-purpose h2{
+    font-size: 50px;
+    text-decoration: uppercase;
+    font-family:  sans-serif;
+}
+
+.about-purpose p{
+    font-style: 0.938rem;
+    margin: 0.5rem 0 1.1rem;
+    
+}
+
+.Learn-more{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    /* border-radius: 5px; */
+    border: initial;
+    background-color: orangered;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.Learn-more:hover{
+    background-color: #3d3d3d;
+}
+
+.Idea{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Idea h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+}
+.Idea p{
+    color: #686767;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rows{
+    flex-basis: 31%;
+    background-color: #dadada;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5;
+}
+
+.Rows h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+    color: #000000;
+}
+
+.Rows:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+}
+
+.Idea .Learn-more{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.Learn-more a:hover{
+    background-color: #3d3d3d;
+}
+
+
+.Info{
+    margin: 100px;
+    width: 100%;
+    min-height: 100px;
+    padding: 15px 70px;
+    margin: 0;
+    background-color: #484872;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Info p{
+    color: whitesmoke;
+    margin: 20px auto;
+    font-size: 15px;
+}
